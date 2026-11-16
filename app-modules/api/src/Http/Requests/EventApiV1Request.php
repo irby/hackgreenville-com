@@ -87,7 +87,7 @@ class EventApiV1Request extends FormRequest
                 'description' => 'Filter events by event name (the "event_name" property)',
             ],
             'org_id' => ['example' => null, 'description' => 'The ID of the organization associated with the event (the "organization.id" property)'],
-            'org_name' => ['example' => null, 'description' => 'The name of the organization associated with the event (the "organization.name" property)'],
+            'org_name' => ['example' => null, 'description' => 'The name of the organization associated with the event (the "organization.name" / "group_name" property)'],
             'service' => ['example' => null, 'description' => 'The service that imported the event (meetup_graphql, eventbrite, etc.)'],
             'min_rsvp' => [
                 'example' => null,

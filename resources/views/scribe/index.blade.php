@@ -786,7 +786,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
                value=""
                data-component="query">
     <br>
-<p>The name of the organization associated with the event (the "organization.name" property). Must not be greater than 255 characters.</p>
+<p>The name of the organization associated with the event (the "organization.name" / "group_name" property). Must not be greater than 255 characters.</p>
             </div>
                                     <div style="padding-left: 28px; clear: unset;">
                 <b style="line-height: 2;"><code>service</code></b>&nbsp;&nbsp;
